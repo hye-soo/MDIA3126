@@ -5,6 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hye Shim MDIA3126 Assignment # 1</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            margin: 40px;
+        }
+
+        /* BUTTON COMPONENT */
+        .c-button {
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 16px;
+
+
+            /* PRIMARY MODIFIER */
+            &.c-button--primary {
+                background-color: skyblue;
+                color: black;
+            }
+
+            /* SECONDARY MODIFIER */
+            &.c-button--secondary {
+                background-color: gray;
+                color: black;
+            }
+
+            /* DISABLED MODIFIER */
+            &.c-button--disabled {
+                background-color: lightpink;
+                color: red;
+                cursor: not-allowed;
+            }
+
+            /* OUTLINE MODIFIER */
+            &.c-button--outline {
+                background-color: transparent;
+                color: blue;
+                border: 4px dashed blue;
+            }
+        }
+    </style>
 
 </head>
 
